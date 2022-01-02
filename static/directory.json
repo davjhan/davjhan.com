@@ -1,0 +1,34 @@
+{
+  "recent": {
+    "title": "Paper Trader Game",
+    "description": "You have 90 seconds to make as much (fake) money as you can.",
+    "image": {
+      "url": "https://paper-trader.davjhan.com/paper-trader-game%20cover.png"
+    },
+    "github": "https://github.com/davjhan/paper-trader-game",
+    "date": "July 21, 2021",
+    "url": "https://paper-trader.davjhan.com/"
+  },
+  "projects": [
+    {
+      "title": "Guess the Year game.",
+      "description": "Guess what year the following events happened.",
+      "image": {
+        "url": "https://time-quiz.davjhan.com/guess-the-year%20cover.png"
+      },
+      "github": "https://github.com/davjhan/guess-the-year-game",
+      "date": "May 23, 2021",
+      "url": "https://guess-the-year.davjhan.com/"
+    },
+    {
+      "title": "📮 Post A Note",
+      "description": "Type a message, pay 2 bucks, and we'll print it on a laminated 4x6 card & mail it! It takes 30 seconds. No sign-ups, logins, or ads.",
+      "image": {
+        "url": "https://firebasestorage.googleapis.com/v0/b/post-a-note-backend.appspot.com/o/linkPreview.png?alt=media&token=573bb646-59fb-4e19-bb44-73903efc017a"
+      },
+      "github": "https://github.com/davjhan/post-a-note-client",
+      "date": "August 27, 2020",
+      "url": "https://postanote.app"
+    }
+  ]
+}

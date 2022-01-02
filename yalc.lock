@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "packages": {
+    "davjhan-core": {
+      "signature": "41be679e2b32e0be216dadc6ef4c441b",
+      "file": true
+    },
+    "ham-ui": {
+      "signature": "d710c9a5151625c3701504f3ba9a265a",
+      "file": true
+    }
+  }
+}
