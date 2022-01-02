@@ -2,7 +2,7 @@
   "version": "v1",
   "packages": {
     "davjhan-core": {
-      "signature": "41be679e2b32e0be216dadc6ef4c441b",
+      "signature": "680f31fd67c6663ba8f515ed8ae8389a",
       "file": true
     },
     "ham-ui": {
