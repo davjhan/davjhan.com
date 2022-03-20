@@ -1,17 +1,9 @@
-const colors = require('tailwindcss/colors')
-const hamUI = require('ham-ui/dist/tailwind.config.cjs')
+const theme = require('broth-css/dist/tailwind.theme.cjs')
 module.exports = {
-    mode: 'jit',
-    purge: [
-        './src/**/*.{svelte,js,ts,jsx,tsx,html,css}',
-        './.yalc/**/*.{svelte,js,ts,jsx,tsx,html,css}'
-    ],
+    content: ['./src/**/*.{svelte,js,ts,jsx,tsx,html}', '.yalc/davjhan-core/**/*.{svelte,js,ts,jsx,tsx,html}'],
     theme: {
         extend: {
-            colors: {
-                ...hamUI.theme.colors,
-                special: colors.green
-            }
+            ...theme,
         },
     }
 }

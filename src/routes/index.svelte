@@ -4,16 +4,16 @@
 <script>
     import directory from '$static/directory.json'
     import SiteView from '$views/SiteView.svelte'
-    import Header from '../lib/views/Header.svelte'
+    import Header from '../views/Header.svelte'
 </script>
 <style>
     a {
-        @apply underline
+        @apply underline;
     }
 </style>
 <main class='p-4 flex flex-col '>
     <div class='flex-col items-center justify-center' style='min-height: 20rem'>
-        <h1 class='text-2xl sm:text-3xl md:text-4xl border-b-4 border-accent-primary font-bold'>
+        <h1 class='text-2xl sm:text-3xl md:text-4xl border-b-4 border-accent font-bold'>
             David's personal projects
         </h1>
     </div>

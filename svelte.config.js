@@ -12,8 +12,6 @@ const config = {
         }),
     ],
     kit: {
-        // hydrate the <div id="svelte"> element in src/app.html
-        target: '#svelte',
         adapter: adapter({
             fallback: '404.html'
         }),
@@ -24,7 +22,7 @@ const config = {
             resolve: {
                 alias: {
                     $static: path.resolve('/static'),
-                    $views: path.resolve('src/lib/views')
+                    $views: path.resolve('src/views')
                 }
             },
             server: {
