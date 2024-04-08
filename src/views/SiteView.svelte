@@ -1,6 +1,6 @@
 <script>
     export let site
-    import Calendar16 from 'carbon-icons-svelte/lib/Calendar16'
+    // import Calendar16 from 'carbon-icons-svelte/lib/Calendar16'
 
     function onclick() {
         window.location.href = site.url
@@ -19,7 +19,7 @@
         <div class='flex-row sm:flex-col gap-4 sm:gap-0 sm:items-end flex-grow '>
             {#if site.date}
                 <div class='flex-row inline-flex  items-center text-gray-dark'>
-                    <Calendar16/>
+<!--                    <Calendar16/>-->
                     <span class='ml-1 whitespace-nowrap'>{site.date}</span>
                 </div>
 

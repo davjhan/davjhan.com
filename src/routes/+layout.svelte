@@ -1,9 +1,6 @@
-<script>
-    import { Navbar } from 'davjhan-core'
-    import 'broth-css/dist/broth.css'
-</script>
+<script>import "../app.pcss";</script>
 <div class='container mx-auto max-w-screen-md pb-48 md:border-l border-r box-content border-gray-100'>
-    <Navbar/>
+<!--    <Navbar/>-->
     <slot/>
 </div>
 <div class='bg-gray-50 h-36 border-t border-gray-light flex flex-col items-center justify-center'>

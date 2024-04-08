@@ -1,8 +1,7 @@
 <script context='module'>
     export const prerender = true
-</script>
-<script>
-    import directory from '$static/directory.json'
+
+    import directory from '$data/directory.json'
     import SiteView from '$views/SiteView.svelte'
     import Header from '../views/Header.svelte'
 </script>

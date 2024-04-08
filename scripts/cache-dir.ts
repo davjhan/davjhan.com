@@ -47,7 +47,7 @@ async function main() {
 		projects: projectData
 	}
 	console.log(`data`, data)
-	fs.writeFile('static/directory.json', JSON.stringify(data), err => {
+	fs.writeFile('src/data/directory.json', JSON.stringify(data), err => {
 		if (err) {
 			console.error(err)
 			return
