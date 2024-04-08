@@ -1,9 +1,9 @@
 <script context='module'>
-    export const prerender = true
 
     import directory from '$data/directory.json'
     import SiteView from '$views/SiteView.svelte'
     import Header from '../views/Header.svelte'
+    import SiteCard from "$views/SiteCard.svelte"
 </script>
 <style>
     a {
@@ -11,13 +11,13 @@
     }
 </style>
 <main class='p-4 flex flex-col '>
-    <div class='flex-col items-center justify-center' style='min-height: 20rem'>
-        <h1 class='text-2xl sm:text-3xl md:text-4xl border-b-4 border-accent font-bold'>
+    <div class='flex-col items-center justify-center h-48'>
+        <h1 class='sm:text-3xl md:text-4xl border-b-4 border-accent font-bold'>
             David's personal projects
         </h1>
     </div>
     <Header class='mb-2'>Most Recent Project</Header>
-    <SiteView site={directory.recent}/>
+    <SiteCard site={directory.recent}/>
     <Header class='mt-12 mb-2'>About me</Header>
     <ul class='list-disc list-inside ml-8'>
         <p>Software Engineer at Doordash in Seattle, WA.</p>

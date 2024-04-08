@@ -1,4 +1,7 @@
-<script>import "../app.pcss";</script>
+<script>
+    import "../app.pcss"
+    import "../davjhan-styles.pcss"
+</script>
 <div class='container mx-auto max-w-screen-md pb-48 md:border-l border-r box-content border-gray-100'>
 <!--    <Navbar/>-->
     <slot/>
