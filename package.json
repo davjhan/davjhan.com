@@ -7,7 +7,7 @@
     "preview": "vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "deploy": "build && netlify deploy --prod",
+    "deploy": "npm run build && netlify deploy --prod",
     "cache-dir": "node --loader ts-node/esm scripts/cache-dir.ts"
   },
   "devDependencies": {

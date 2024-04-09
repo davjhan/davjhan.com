@@ -1,8 +1,9 @@
 // import theme from './src/styles/tailwind.theme'
-import type { Config } from 'tailwindcss'
+import type {Config} from 'tailwindcss'
 import colors from "tailwindcss/colors"
+
 export default {
-    content: ['./src/**/*.{svelte,js,ts,jsx,tsx,html}', '.yalc/davjhan-core/**/*.{svelte,js,ts,jsx,tsx,html}'],
+    content: ['./src/**/*.{svelte,js,ts,jsx,tsx,html}'],
     theme: {
         extend: {
             colors: {
@@ -29,6 +30,9 @@ export default {
                     success: colors.lime[100],
                     error: colors.rose[100],
                 },
+                background: {
+                    DEFAULT: colors.white,
+                },
                 divider: {
                     DEFAULT: colors.neutral[300],
                     accent: colors.indigo[300],
@@ -39,6 +43,9 @@ export default {
             boxShadow: {
                 hard: `2px 2px 0px 0px ${colors.neutral[800]}`,
             },
+            borderRadius: {
+                DEFAULT: '8px',
+            }
         },
     }
 } satisfies Config

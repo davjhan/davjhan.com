@@ -2,7 +2,7 @@
     import ArrowDown20 from 'carbon-icons-svelte/lib/ArrowDown.svelte'
 
     let cl
-    export { cl as class }
+    export {cl as class}
 </script>
 <span class='inline-flex items-center font-semibold text-lg self-start {cl}'>
     <ArrowDown20 class='inline mr-1'/>
