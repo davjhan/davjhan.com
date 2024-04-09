@@ -7,12 +7,7 @@ import preprocess from "svelte-preprocess";
 const config = {
   // Consult https://github.com/sveltejs/svelte-preprocess
   // for more information about preprocessors
-  preprocess: [
-    preprocess({
-      postcss: true,
-    }),
-    vitePreprocess({}),
-  ],
+  preprocess: vitePreprocess(),
   kit: {
     adapter: adapter({
       fallback: "404.html",
