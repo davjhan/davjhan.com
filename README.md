@@ -8,9 +8,9 @@ Play the game here: [`Guess The Year Game`](https://guess-the-year.davjhan.com/)
 
 # Built with
 
-- [`Svelte Kit`](https://kit.svelte.dev/)
-- Tailwind CSS (JIT)
-- Netlify
+-   [`Svelte Kit`](https://kit.svelte.dev/)
+-   Tailwind CSS (JIT)
+-   Netlify
 
 Generates a static app that is hosted on Netlify.
 

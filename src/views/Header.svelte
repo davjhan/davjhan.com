@@ -1,10 +1,11 @@
 <script>
-    import ArrowDown20 from 'carbon-icons-svelte/lib/ArrowDown.svelte'
+	import ArrowDown20 from 'carbon-icons-svelte/lib/ArrowDown.svelte'
 
-    let cl
-    export {cl as class}
+	let cl
+	export { cl as class }
 </script>
-<span class='inline-flex items-center font-semibold text-lg self-start {cl}'>
-    <ArrowDown20 class='inline mr-1'/>
-    <slot/>
+
+<span class="inline-flex items-center self-start text-lg font-semibold {cl}">
+	<ArrowDown20 class="mr-1 inline" />
+	<slot />
 </span>
