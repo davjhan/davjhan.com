@@ -13,6 +13,7 @@ const config = {
 		alias: {
 			$data: 'src/data',
 			$views: 'src/views',
+			$ui: 'src/lib/components/ui',
 		},
 	},
 }

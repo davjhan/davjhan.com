@@ -72,11 +72,19 @@
 		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
 		font-size: 14px;
-
 		@screen sm {
 			font-size: 16px;
 		}
 		@apply text-ink;
+	}
+
+	/* Button style reset */
+	button {
+		@apply text-start;
+	}
+
+	:not(ul) > li {
+		@apply list-none;
 	}
 
 	* {
@@ -116,7 +124,7 @@
 
 	input[type],
 	select {
-		@apply rounded border-divider font-medium outline-ink-hover placeholder:font-normal placeholder:text-ink-secondary;
+		@apply rounded border-divider font-medium outline-ink placeholder:font-normal placeholder:text-ink-secondary;
 		@apply focus:ring-accent;
 	}
 
@@ -125,7 +133,7 @@
 	}
 
 	input[type='checkbox'] {
-		@apply cursor-pointer rounded border-2 border-ink text-ink-hover focus:ring-accent;
+		@apply cursor-pointer rounded border-2 border-ink text-ink focus:ring-accent;
 	}
 }
 

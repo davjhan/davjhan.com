@@ -12,9 +12,9 @@ export default {
 				white: colors.white,
 				ink: {
 					DEFAULT: colors.neutral[800],
-					hover: colors.neutral[700] /* On default ink hover */,
 					primary: colors.indigo[600],
-					secondary: colors.neutral[500],
+					secondary: colors.neutral[700],
+					tertiary: colors.neutral[500],
 					error: colors.rose[700],
 					success: colors.lime[700],
 				},

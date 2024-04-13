@@ -18,3 +18,14 @@
 button {
 	touch-action: manipulation;
 }
+
+@layer base {
+	html {
+		@apply scroll-smooth;
+	}
+
+	* {
+		/* navigating to anchor should scroll */
+		@apply scroll-mt-24;
+	}
+}

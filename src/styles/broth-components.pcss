@@ -105,8 +105,6 @@
 @layer components {
 	.button,
 	button {
-		@apply flex origin-center flex-row items-center justify-center gap-1 font-semibold focus:outline-accent;
-
 		&.primary,
 		&.accent,
 		&.secondary,
@@ -120,11 +118,11 @@
 		}
 
 		&.primary {
-			@apply bg-ink text-white active:bg-ink-hover;
+			@apply bg-ink text-white active:bg-ink;
 		}
 
 		&.primary:not(:disabled) {
-			@apply hover:bg-ink-hover;
+			@apply hover:bg-ink;
 		}
 
 		&.accent {

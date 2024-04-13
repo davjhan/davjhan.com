@@ -13,7 +13,7 @@
 <svelte:head>
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
 </svelte:head>
-<div class="card mb-4 flex-grow gap-4 p-4">
+<div class="card mb-4 flex-grow gap-4 p-4" id={site.title}>
 	<div class="items-start sm:flex-row">
 		<div class="gap-2">
 			<a href={site.url} rel="external"><h1 class=" text-2xl font-bold">{site.title}</h1></a>

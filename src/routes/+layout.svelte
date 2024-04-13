@@ -4,7 +4,7 @@
 </script>
 
 <div class="bg-background">
-	<div class="container mx-auto box-content max-w-screen-md border-r border-shade pb-48 md:border-l">
+	<div class="container mx-auto box-content max-w-screen-lg border-r border-shade pb-48 md:border-l">
 		<Navbar />
 		<slot />
 	</div>
