@@ -14,7 +14,7 @@
 			{#if data.date}
 				<div class="inline-flex flex-row items-center text-ink-tertiary">
 					<Calendar />
-					<span class="ml-1 whitespace-nowrap text-xs">{data.date}</span>
+					<span class="ml-1 whitespace-nowrap text-xs">Released on {data.date}</span>
 				</div>
 			{/if}
 			{#if data.uniqueVisitors}
@@ -23,6 +23,18 @@
 					<span class="ml-1 whitespace-nowrap text-xs">
 						{Intl.NumberFormat('en-US').format(data.uniqueVisitors)} unique visitors
 					</span>
+				</div>
+			{/if}
+			{#if data.github}
+				<div class="inline-flex flex-row">
+
+					<!-- Place this tag where you want the button to render. -->
+					<a class="github-button" href={data.github} data-show-count="true" aria-label="Star on GitHub">
+						Star
+					</a>
+					<a rel="external" href={data.github} class="text-gray-dark ml-1 mr-2 text-sm underline">
+						View in Github
+					</a>
 				</div>
 			{/if}
 		</div>
@@ -34,17 +46,7 @@
 				Visit website
 				<ArrowRight class="mb-0.5 ml-2 inline" />
 			</a>
-			{#if data.github}
-				<div class="inline-flex flex-row">
-					<a rel="external" href={data.github} class="text-gray-dark ml-1 mr-2 text-sm underline">
-						View in Github
-					</a>
-					<!-- Place this tag where you want the button to render. -->
-					<a class="github-button" href={data.github} data-show-count="true" aria-label="Star on GitHub">
-						Star
-					</a>
-				</div>
-			{/if}
+
 		</div>
 	</div>
 	<a class="h-fit shrink sm:w-[400px]" href={data.url}>

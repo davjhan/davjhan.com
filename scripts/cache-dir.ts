@@ -2,7 +2,6 @@ export {}
 import * as fs from 'fs'
 import og from 'open-graph-scraper'
 
-const recent = 'https://paper-trader.davjhan.com/'
 const WEB_SITES = [
 	{
 		title: 'Post A Note',

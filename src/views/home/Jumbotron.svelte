@@ -5,7 +5,7 @@
 </script>
 
 <div class="bg-jumbotron overflow-clip rounded">
-	<div class="p-8 pt-12">
+	<div class="w-2/3 p-8 pt-12">
 		<div class="mb-4 self-start border p-2">
 			<h1 class="border-b border-ink-accent font-accent text-4xl font-semibold italic lg:text-7xl">David Han</h1>
 			<div
@@ -62,11 +62,11 @@
 			<span class="text-xs text-ink-tertiary">Emails are my preferred method of communication. Let's chat!</span>
 		</div>
 	</div>
-	<div class="absolute -bottom-20 right-0 md:right-20">
+	<div class="absolute -bottom-20 -right-10 sm:right-0 md:right-20">
 		<div class="absolute left-20 h-96 w-40 rotate-45 rounded-full bg-ink-accent opacity-90 blur-3xl md:left-10" />
 		<div
 			class="rotate-135 absolute -top-40 left-40 h-96 w-80 rounded-full bg-indigo-500 opacity-90 blur-3xl md:left-40" />
-		<img alt="portrait" class="  right-0 z-50 w-60 sm:w-80" src={portrait} />
+		<img alt="portrait" class="right-0 z-50 w-60 md:w-80" src={portrait} />
 	</div>
 </div>
 

@@ -7,7 +7,7 @@
 	import MobileGamesView from '$views/home/MobileGamesView.svelte'
 	import { ArrowDown, CheckmarkFilled } from 'carbon-icons-svelte'
 	import Jumbotron from '$views/home/Jumbotron.svelte'
-	import WebGameCard from '$views/WebGameCard.svelte'
+	import WebGameCard from '$views/WebProjectCard.svelte'
 </script>
 
 <main class="flex flex-col p-4">
