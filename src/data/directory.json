@@ -1,30 +1,43 @@
 {
-	"recent": {
-		"title": "Paper Trader Game",
-		"description": "You have 45 seconds to make as much (fake) money as you can.",
-		"image": {
-			"url": "https://paper-trader.davjhan.com/Paper-trader-cover.png"
-		},
-		"github": "https://github.com/davjhan/paper-trader-game",
-		"date": "July 21, 2021",
-		"url": "https://paper-trader.davjhan.com/"
-	},
-	"projects": [
+	"webGames": [
 		{
-			"title": "Guess the Year game.",
+			"title": "Paper Trader",
+			"description": "You have 45 seconds to make as much (fake) money as you can.",
+			"image": {
+				"height": "627",
+				"url": "https://paper-trader.davjhan.com/Paper-trader-cover.png",
+				"width": "1200",
+				"type": "png"
+			},
+			"github": "https://github.com/davjhan/paper-trader-game",
+			"date": "July 21, 2021",
+			"url": "https://paper-trader.davjhan.com/",
+			"uniqueVisitors": 16500
+		},
+		{
+			"title": "Guess The Year",
 			"description": "Guess what year the following events happened.",
 			"image": {
-				"url": "https://time-quiz.davjhan.com/guess-the-year%20cover.png"
+				"height": "627",
+				"url": "https://time-quiz.davjhan.com/guess-the-year%20cover.png",
+				"width": "1200",
+				"type": "png"
 			},
 			"github": "https://github.com/davjhan/guess-the-year-game",
 			"date": "May 23, 2021",
-			"url": "https://guess-the-year.davjhan.com/"
-		},
+			"url": "https://guess-the-year.davjhan.com/",
+			"uniqueVisitors": 110000
+		}
+	],
+	"webSites": [
 		{
-			"title": "📮 Post A Note",
+			"title": "Post A Note",
 			"description": "Type a message, pay 2 bucks, and we'll print it on a laminated 4x6 card & mail it! It takes 30 seconds. No sign-ups, logins, or ads.",
 			"image": {
-				"url": "https://firebasestorage.googleapis.com/v0/b/post-a-note-backend.appspot.com/o/linkPreview.png?alt=media&token=573bb646-59fb-4e19-bb44-73903efc017a"
+				"height": "630",
+				"type": "image/png",
+				"url": "https://firebasestorage.googleapis.com/v0/b/post-a-note-backend.appspot.com/o/linkPreview.png?alt=media&token=573bb646-59fb-4e19-bb44-73903efc017a",
+				"width": "1200"
 			},
 			"github": "https://github.com/davjhan/post-a-note-client",
 			"date": "August 27, 2020",

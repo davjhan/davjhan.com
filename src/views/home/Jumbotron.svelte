@@ -1,15 +1,6 @@
 <script>
 	import portrait from '$assets/img/portrait.png'
-	import {
-		Cursor_1,
-		Cursor_2,
-		Email,
-		LocationFilled,
-		LogoGithub,
-		LogoInstagram,
-		LogoLinkedin,
-		LogoTwitter,
-	} from 'carbon-icons-svelte'
+	import { Email, LocationFilled, LogoGithub, LogoInstagram, LogoLinkedin, LogoTwitter } from 'carbon-icons-svelte'
 	import CursorIcon from '$views/home/CursorIcon.svelte'
 </script>
 
@@ -68,6 +59,7 @@
 				<Email class="inline" />
 				davjhan1@gmail.com
 			</h3>
+			<span class="text-xs text-ink-tertiary">Emails are my preferred method of communication. Let's chat!</span>
 		</div>
 	</div>
 	<div class="absolute -bottom-20 right-0 md:right-20">

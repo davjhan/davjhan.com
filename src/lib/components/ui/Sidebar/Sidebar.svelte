@@ -3,6 +3,6 @@
 	export { className as class }
 </script>
 
-<div class="gap-4 py-8 {className}">
+<div class="gap-8 py-8 {className}">
 	<slot />
 </div>

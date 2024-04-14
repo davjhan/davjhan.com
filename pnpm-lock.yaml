@@ -73,6 +73,9 @@ devDependencies:
     tslib:
         specifier: ^2.6.2
         version: 2.6.2
+    tsx:
+        specifier: ^4.7.2
+        version: 4.7.2
     typescript:
         specifier: ^5.4.4
         version: 5.4.4
@@ -2349,6 +2352,15 @@ packages:
         engines: { node: '>=16' }
         dev: true
 
+    /get-tsconfig@4.7.3:
+        resolution:
+            {
+                integrity: sha512-ZvkrzoUA0PQZM6fy6+/Hce561s+faD1rsNwhnO5FelNjyy7EMGJ3Rz1AQ8GYDWjhRs/7dBLOEJvhK8MiEJOAFg==,
+            }
+        dependencies:
+            resolve-pkg-maps: 1.0.0
+        dev: true
+
     /glob-parent@5.1.2:
         resolution:
             {
@@ -3668,6 +3680,13 @@ packages:
             }
         dev: false
 
+    /resolve-pkg-maps@1.0.0:
+        resolution:
+            {
+                integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==,
+            }
+        dev: true
+
     /resolve@1.22.8:
         resolution:
             {
@@ -4257,6 +4276,20 @@ packages:
             {
                 integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==,
             }
+        dev: true
+
+    /tsx@4.7.2:
+        resolution:
+            {
+                integrity: sha512-BCNd4kz6fz12fyrgCTEdZHGJ9fWTGeUzXmQysh0RVocDY3h4frk05ZNCXSy4kIenF7y/QnrdiVpTsyNRn6vlAw==,
+            }
+        engines: { node: '>=18.0.0' }
+        hasBin: true
+        dependencies:
+            esbuild: 0.19.12
+            get-tsconfig: 4.7.3
+        optionalDependencies:
+            fsevents: 2.3.3
         dev: true
 
     /type-detect@4.0.8:

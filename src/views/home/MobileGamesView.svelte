@@ -1,5 +1,4 @@
 <ul class="ml-8 list-inside list-disc">
-	<p class="mb-2">I also made some mobile games.</p>
 	<li>
 		<a class="font-semibold" href="https://play.google.com/store/apps/details?id=com.davidhan.boxes&hl=en_US&gl=US">
 			Unbox
