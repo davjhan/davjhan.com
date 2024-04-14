@@ -14,6 +14,7 @@ const config = {
 			$data: 'src/data',
 			$views: 'src/views',
 			$ui: 'src/lib/components/ui',
+			$assets: 'src/lib/assets',
 		},
 	},
 }

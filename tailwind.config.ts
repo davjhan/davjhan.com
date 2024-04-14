@@ -5,4 +5,9 @@ import type { Config } from 'tailwindcss'
 export default {
 	content: ['./src/**/*.{svelte,js,ts,jsx,tsx,html}'],
 	presets: [preset],
+	theme: {
+		fontFamily: {
+			accent: 'Lora',
+		},
+	},
 } satisfies Config

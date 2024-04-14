@@ -13,6 +13,10 @@
 
 <main class="flex flex-col p-4">
 	<Jumbotron />
+	<div class="items-center gap-1 py-16 font-accent">
+		<h1 class="">I make games!</h1>
+		<h3 class="italic">Check out my personal projects <ArrowDown class="mb-2 inline" size={24} /></h3>
+	</div>
 	<div class="flex-row gap-2">
 		<!-- Projects -->
 
@@ -34,31 +38,12 @@
 				<SidebarItem href="#mobile-games" label="RPS Arcade" />
 			</SidebarSection>
 		</Sidebar>
-		<div class="max-w-screen-md gap-2">
+		<div class="gap-2 lg:max-w-screen-md">
 			<span class="inline-flex scroll-m-24 items-center self-start text-lg font-semibold" id="recent-project">
 				<ArrowDown class="mr-1 inline" />
 				Most Recent Project
 			</span>
 			<SiteView site={directory.recent} />
-			<Header class="mb-2 mt-12">About me</Header>
-			<ul class="ml-8 list-inside list-disc">
-				<p>David Han, Software Engineer at Doordash. Based in Seattle, WA.</p>
-			</ul>
-			<Header class="mb-2 mt-4">Contact me</Header>
-			<ul class="ml-8 list-inside list-disc">
-				<li>
-					Github: <a class="ml-2 font-semibold" href="https://github.com/davjhan">@davjhan</a>
-				</li>
-				<li>
-					Twitter: <a class="ml-2 font-semibold" href="https://twitter.com/davjhan">@davjhan</a>
-				</li>
-				<li>
-					LinkedIn: <a class="ml-2 font-semibold" href="https://linkedin.com/in/davjhan">@davjhan</a>
-				</li>
-				<li>
-					Email: <b>davjhan1@gmail.com</b>
-				</li>
-			</ul>
 
 			<div class="mt-12">
 				<Header class="mb-2" id="web-projects">Web Projects</Header>

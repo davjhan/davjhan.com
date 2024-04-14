@@ -12,14 +12,14 @@ export default {
 				white: colors.white,
 				ink: {
 					DEFAULT: colors.neutral[800],
-					primary: colors.indigo[600],
+					accent: colors.orange[600],
 					secondary: colors.neutral[700],
 					tertiary: colors.neutral[500],
 					error: colors.rose[700],
 					success: colors.lime[700],
 				},
 				accent: {
-					DEFAULT: colors.amber[300],
+					DEFAULT: colors.orange[300],
 					error: colors.rose[300],
 					success: colors.lime[200],
 					secondary: colors.neutral[300],
