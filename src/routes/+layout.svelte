@@ -8,7 +8,7 @@
 		<Navbar />
 		<slot />
 	</div>
-	<div class="flex h-36 -mb-32 flex-col items-center justify-center border-t border-divider bg-shade">
+	<div class="-mb-32 flex h-36 flex-col items-center justify-center border-t border-divider bg-shade">
 		<span class="text-ink-secondary">© David Han, 2024</span>
 	</div>
 </div>

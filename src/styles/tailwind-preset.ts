@@ -22,7 +22,7 @@ export default {
 					DEFAULT: colors.orange[300],
 					error: colors.rose[300],
 					success: colors.lime[200],
-					secondary: colors.neutral[300],
+					secondary: colors.neutral[200],
 				},
 				shade: {
 					DEFAULT: colors.neutral[100],
