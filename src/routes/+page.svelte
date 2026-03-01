@@ -47,7 +47,7 @@
 		<div class="gap-2 lg:max-w-screen-md">
 			<div class="mt-12 gap-24">
 				<div class="gap-2" id="web-games">
-					<div class="mb-4 mb-8 gap-2">
+					<div class="mb-8 gap-2">
 						<h1>Web Games</h1>
 						<p>Simple, easy-to-learn mini games. I just make these for fun.</p>
 						<hr />
@@ -70,8 +70,8 @@
 						<WebGameCard data={game} />
 					{/each}
 				</div>
-				<div class="gap-2" id="web-games">
-					<div class="mb-4 mb-8 gap-2" id="web-sites">
+				<div class="gap-2" id="web-sites">
+					<div class="mb-8 gap-2">
 						<h1>Websites</h1>
 						<p>Small SaaS projects.</p>
 						<hr />
