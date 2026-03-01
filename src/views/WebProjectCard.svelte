@@ -1,24 +1,7 @@
 <script>
 	import { Calendar, LogoGithub, View } from 'carbon-icons-svelte'
-	import ky from 'ky'
 
 	export let data
-	const repoName = data.github?.split('/').pop()
-
-	async function getStarCount() {
-		try {
-			const res = await ky
-				.get(`https://api.github.com/repos/davjhan/${repoName}`, {
-					headers: {
-						'User-Agent': 'request',
-					},
-				})
-				.json()
-			return res['stargazers_count']
-		} catch {
-			return null
-		}
-	}
 </script>
 
 <div class="card mb-4 gap-4 p-4 sm:flex-row" id={data.title}>
@@ -55,11 +38,6 @@
 					rel="noopener noreferrer">
 					<LogoGithub />
 					Github
-					{#await getStarCount() then count}
-						{#if count != null}
-							<span class="text-ink-tertiary">| {count} stars</span>
-						{/if}
-					{/await}
 				</a>
 			{/if}
 		</div>
