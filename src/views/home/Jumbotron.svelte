@@ -39,25 +39,23 @@
 		<div class="justify-self-end text-ink-secondary">
 			<h3>
 				<LogoGithub class="inline" />
-				<a class="underline decoration-ink-accent" href="https://github.com/davjhan">davjhan</a>
+				<a class="underline decoration-ink-accent" href="https://github.com/davjhan" rel="noopener noreferrer">davjhan</a>
 			</h3>
 			<h3>
 				<LogoLinkedin class="inline" />
-				<a class="underline decoration-ink-accent" href="https://www.linkedin.com/in/davjhan">davjhan</a>
+				<a class="underline decoration-ink-accent" href="https://www.linkedin.com/in/davjhan" rel="noopener noreferrer">davjhan</a>
 			</h3>
-			<a class="underline decoration-ink-accent" href="https://twitter.com/davjhan">
-				<h3>
-					<LogoTwitter class="inline" />
-					davjhan
-				</h3>
-			</a>
+			<h3>
+				<LogoTwitter class="inline" />
+				<a class="underline decoration-ink-accent" href="https://twitter.com/davjhan" rel="noopener noreferrer">davjhan</a>
+			</h3>
 			<h3>
 				<LogoInstagram class="inline" />
-				<a class="underline decoration-ink-accent" href="https://instagram.com/davjhan">davjhan</a>
+				<a class="underline decoration-ink-accent" href="https://instagram.com/davjhan" rel="noopener noreferrer">davjhan</a>
 			</h3>
 			<h3>
 				<Email class="inline" />
-				davjhan1@gmail.com
+				<a class="underline decoration-ink-accent" href="mailto:davjhan1@gmail.com">davjhan1@gmail.com</a>
 			</h3>
 			<span class="text-xs text-ink-tertiary">Emails are my preferred method of communication. Let's chat!</span>
 		</div>
